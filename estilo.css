@@ -481,9 +481,9 @@ body {
     margin-top: 20px;
 }
 
-.apps a {
+.apps a {       
     color: white;
-    background-color: #0165aa;
+    background-color: #0165aa;  
     padding: 12px 18px;
     border-radius: 8px;
     transition: 0.3s;
@@ -495,4 +495,20 @@ body {
     padding: 25px;
     color: #bdbdbd;
     font-size: 14px;
+}
+
+.login-bar{
+    position: fixed;
+    top: 50px;
+}
+.logo{
+position: fixed;
+top: 0;
+color: darkorange;
+
+}
+.menu{
+    position: fixed;
+    right: 80px;
+
 }
