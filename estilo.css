@@ -21,12 +21,19 @@ body {
     color: white;
     font-size: 38px;
     font-weight: bold;
+    position: fixed;
+top: 0;
+
+
 }
 
 .menu {
     list-style: none;
     display: flex;
     gap: 25px;
+        position: fixed;
+    right: 80px;
+    font-weight: bold;
 }
 
 .menu a {
@@ -63,6 +70,8 @@ body {
     align-items: center;
     gap: 15px;
     padding: 12px 50px;
+      position: fixed;
+    top: 50px;
 }
 
 .login-bar span {
@@ -497,18 +506,3 @@ body {
     font-size: 14px;
 }
 
-.login-bar{
-    position: fixed;
-    top: 50px;
-}
-.logo{
-position: fixed;
-top: 0;
-color: darkorange;
-
-}
-.menu{
-    position: fixed;
-    right: 80px;
-
-}
