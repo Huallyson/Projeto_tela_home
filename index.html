@@ -42,10 +42,26 @@
     <main>
         <section class="hero">
             <div class="hero-texto">
+<div class="slider-container">
 
-            
+  <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>
+  <button class="arrow right" onclick="changeSlide(1)">&#10095;</button>
+
+  <div class="slide active">
     <p id="p1">Seu cartão amarelinho na mão</p>
     <button>saiba mais</button><br>
+  </div>
+
+  <div class="slide">
+       <p id="p2">Ficou com alguma dúvida? Não se preocupe, a gente explica tudinho!</p>
+       <button>Clique aqui e tire suas duvidas! </button>
+   
+  </div>
+</div>
+            
+ 
+   
+    
     </div>
 
     <div class="hero-img">
@@ -261,5 +277,7 @@
 
     </footer>
     
+    <script src="javascripit.js">
+    </script>
 </body>
 </html>

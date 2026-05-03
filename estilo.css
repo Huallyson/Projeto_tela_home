@@ -22,7 +22,7 @@ body {
     font-size: 38px;
     font-weight: bold;
     position: fixed;
-top: 0;
+        top: 0;
 
 
 }
@@ -138,6 +138,15 @@ top: 0;
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 25px;
+}
+
+#p2 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom:25px;
+    appearance: none;
 }
 
 .hero-texto button {
@@ -506,3 +515,39 @@ top: 0;
     font-size: 14px;
 }
 
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.3);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    background: rgba(0,0,0,0.6);
+}
+
+.left { left: -10px; }
+.right { right: -10px; }
