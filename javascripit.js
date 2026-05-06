@@ -10,3 +10,4 @@ function changeSlide(direction) {
     
     slides[currentSlide].classList.add('active');
 }
+

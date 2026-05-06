@@ -1,128 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Meu Cartão</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <header>
-    <div class="topo">
-        <div class="logo">Vem</div>
-    <nav>
-        <ul class="menu">
-            <li><a href="#">Para você</a></li>
-            <li><a href="#">Para empresas</a></li>
-            <li><a href="#">Informativos</a></li>
-            <li><a href="#">Ajuda</a></li>
-        </ul>
-    </nav>  
-    </div>
-
-    <div class="login-bar">
-        <span>Minha conta</span>
-        <input type="text" placeholder="CPF ou CNPJ">
-        <input type="password" placeholder="Senha">
-
-        <button>Acessar</button>
-    
-
-        <div class="links">
+        <div class="topo">
+            <div class="logo">Vem</div>
             <nav>
-                <ul>
-                    <li><a href="#">Recuperar senha</a></li>
-                    <li><a href="#">Alterar e-mail</a></li>
-                    <li><a href="#">Cadastrar conta</a></li>
+                <ul class="menu">
+                    <li><a href="#">Para você</a></li>
+                    <li><a href="#">Para empresas</a></li>
+                    <li><a href="#">Informativos</a></li> 
+                    <li><a href="#">Ajuda</a></li>
                 </ul>
             </nav>
         </div>
-    </div>
+
+        <div class="login-bar">
+            <span>Minha conta</span>
+            <input type="text" placeholder="CPF ou CNPJ">
+            <input type="password" placeholder="Senha">
+
+            <button>Acessar</button>
+
+
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="#">Recuperar senha</a></li>
+                        <li><a href="#">Alterar e-mail</a></li>
+                        <li><a href="#">Cadastrar conta</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
         <section class="hero">
             <div class="hero-texto">
-<div class="slider-container">
+                <div class="slider-container">
 
-  <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>
-  <button class="arrow right" onclick="changeSlide(1)">&#10095;</button>
+                    <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="arrow right" onclick="changeSlide(1)">&#10095;</button>
 
-  <div class="slide active">
-    <p id="p1">Seu cartão amarelinho na mão</p>
-    <button>saiba mais</button><br>
-  </div>
+                    <div class="slide active">
+                        <p id="p1">Seu cartão amarelinho na mão</p>
+                        <button>saiba mais</button><br>
+                    </div>
 
-  <div class="slide">
-       <p id="p2">Ficou com alguma dúvida? Não se preocupe, a gente explica tudinho!</p>
-       <button>Clique aqui e tire suas duvidas! </button>
-   
-  </div>
-</div>
-            
- 
-   
-    
-    </div>
+                    <div class="slide">
+                        <p id="p2">Ficou com alguma dúvida? Não se preocupe, a gente explica tudinho!</p>
+                        <button>Clique aqui e tire suas duvidas! </button>
 
-    <div class="hero-img">
-        <img src="imagens/cartao.png" alt="Cartão VEM">
-    </div>
+                    </div>
+                </div>
 
-    </section>
 
-    <section class="para-voce">
-        <div class="para-voce-info">
-            <h2>Para Você</h2>
 
-            <p>
-                O VEM oferece diferentes tipos de cartão, criados para atender às diversas necessidades dos nossos clientes.
-            </p>
-        </div>
-        <div class="para-voce-destaque">
-            <article>
-                <h3>VEM Comum</h3>
-                <p>Ideal para uso diário do transporte público.</p>
-                <a href="#">Saiba mais</a>
-            </article>
-        </div>
-    </section>
 
-    <section class="tipos-cartao">
-        <button class="seta esquerda">
-        </button>
-
-        <ul class="lista-cartoes">
-
-            <li class="cartao ativo">
-            <div class="cartao-conteudo" >
-                <h3>VEM comum</h3>
             </div>
-            </li>
-            
-            <li class="cartao">
-                <div class="cartao-conteudo">
-                    <h3>VEM estudante</h3>
-                </div>
-            </li>
 
-             <li class="cartao">
-                <div class="cartao-conteudo">
-                    <h3>VEM idoso</h3>
-                </div>
-            </li>
+            <div class="hero-img">
+                <img src="imagens/cartao.png" alt="Cartão VEM">
+            </div>
 
-             <li class="cartao">
-                <div class="cartao-conteudo">
-                    <h3>VEM Livre PCR</h3>
-                </div>
-            </li>
-        </ul>
+        </section>
 
-        <button class="seta direita">
-            
-        </button>
+        <section class="para-voce">
+            <div class="para-voce-info">
+                <h2>Para Você</h2>
 
-    </section>
+                <p>
+                    O VEM oferece diferentes tipos de cartão, criados para atender às diversas necessidades dos nossos
+                    clientes.
+                </p>
+            </div>
+            <div class="para-voce-destaque">
+                <article>
+                    <h3>VEM Comum</h3>
+                    <p>Ideal para uso diário do transporte público.</p>
+                    <a href="#">Saiba mais</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="tipos-cartao">
+            <button class="seta esquerda">
+            </button>
+
+            <ul class="lista-cartoes">
+
+                <li class="cartao ativo">
+                    <div class="cartao-conteudo">
+                        <h3>VEM comum</h3>
+                    </div>
+                </li>
+
+                <li class="cartao">
+                    <div class="cartao-conteudo">
+                        <h3>VEM estudante</h3>
+                    </div>
+                </li>
+
+                <li class="cartao">
+                    <div class="cartao-conteudo">
+                        <h3>VEM idoso</h3>
+                    </div>
+                </li>
+
+                <li class="cartao">
+                    <div class="cartao-conteudo">
+                        <h3>VEM Livre PCR</h3>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="seta direita">
+
+            </button>
+
+        </section>
 
         <section class="para-empresas">
 
@@ -130,7 +133,8 @@
                 <h2>Para Empresas</h2>
 
                 <p>
-                    O VEM possui soluções específicas para empresas e para os trabalhadores Cadastre a usa instituiçao e veja como simplificar os seus pedidos e os deslocamentos dos seus funcionários.
+                    O VEM possui soluções específicas para empresas e para os trabalhadores Cadastre a usa instituiçao e
+                    veja como simplificar os seus pedidos e os deslocamentos dos seus funcionários.
                 </p>
             </div>
 
@@ -143,7 +147,8 @@
                         <h3>VEM Trabalhador</h3>
 
                         <p>
-                            VEM para uso do benefício do VEM-Transporte. A primeira via do VEM Trabalhador deve ser solicitada pelo empregador.
+                            VEM para uso do benefício do VEM-Transporte. A primeira via do VEM Trabalhador deve ser
+                            solicitada pelo empregador.
                         </p>
                         <nav>
                             <a href="#">SAIBA MAIS</a>
@@ -153,7 +158,7 @@
             </div>
         </section>
         <section class="servicos-online">
-            
+
             <header class="servicos-header">
                 <h2>Serviços online</h2>
             </header>
@@ -193,8 +198,8 @@
                     <a href="#">SAIBA MAIS</a>
                 </article>
 
-                </nav>
-            
+            </nav>
+
 
             <div class="servicos-extra">
                 <h3>E muito mais</h3>
@@ -202,11 +207,11 @@
                     * É necessário estar conectado à sua conta para conhecer o passo a passo.
                 </p>
             </div>
-            
+
 
         </section>
 
-    
+
 
     </main>
 
@@ -223,7 +228,7 @@
                         <img src="imagens/facebook.png" alt="Facebook">
                     </a>
                 </div>
-            </div>  
+            </div>
             <nav class="footer-nav">
                 <h3>Para você</h3>
                 <ul>
@@ -237,8 +242,8 @@
             <nav class="footer-nav">
                 <h3>Para Empresas</h3>
                 <ul>
-                   <li><a href="#">VEM Trabalhador</a></li>
-                   <li><a href="#">VEM Rodoviário</a></li> 
+                    <li><a href="#">VEM Trabalhador</a></li>
+                    <li><a href="#">VEM Rodoviário</a></li>
                 </ul>
             </nav>
             <nav class="footer-nav">
@@ -266,7 +271,7 @@
                     </a>
                 </div>
             </div>
-            
+
         </div>
 
         <div class="footer-copy">
@@ -276,8 +281,8 @@
         </div>
 
     </footer>
-    
-    <script src="javascripit.js">
-    </script>
+
+    <script src="javascripit.js"></script>
 </body>
+
 </html>
