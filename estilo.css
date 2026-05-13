@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,19 +17,18 @@ body {
     padding: 15px 50px;
 }
 
-.logo{
+.logo {
     color: white;
     font-size: 38px;
     font-weight: bold;
-
-
-
+    top: 0;
 }
 
 .menu {
     list-style: none;
     display: flex;
     gap: 25px;
+
 }
 
 .menu a {
@@ -41,7 +40,7 @@ body {
     padding-bottom: 5px;
 }
 
-.menu a::after{
+.menu a::after {
     content: "";
     position: absolute;
 
@@ -67,7 +66,7 @@ body {
     gap: 15px;
     padding: 12px 50px;
 
-    
+
 }
 
 .login-bar span {
@@ -84,7 +83,7 @@ body {
 }
 
 .login-bar input:focus {
-    box-shadow:  0 0 8px rgba(255,255,255,0.7);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
 .login-bar button {
@@ -141,7 +140,7 @@ body {
     font-size: 45px;
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom:25px;
+    margin-bottom: 25px;
     appearance: none;
 }
 
@@ -186,7 +185,7 @@ body {
     font-size: 500px;
     font-weight: bold;
 
-    color: rgba(255,255,255,0.15);
+    color: rgba(255, 255, 255, 0.15);
 
     letter-spacing: -15px;
 
@@ -268,12 +267,12 @@ body {
 .cartao.ativo {
     background-color: #f58220;
     color: white;
-    box-shadow: 0 10px 20px rgba(245,130,32,0.4);
+    box-shadow: 0 10px 20px rgba(245, 130, 32, 0.4);
 }
 
 .cartao:hover {
     transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .seta {
@@ -282,7 +281,7 @@ body {
     font-size: 28px;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .seta:hover {
@@ -321,13 +320,13 @@ body {
     gap: 40px;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     transition: 0.4s;
 }
 
-.card-destaque-empresa:hover{
+.card-destaque-empresa:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 .empresa-imagem img {
@@ -381,7 +380,7 @@ body {
 .cards-servicos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px; 
+    gap: 30px;
 }
 
 .card-servico {
@@ -390,7 +389,7 @@ body {
     border-radius: 20px;
     text-align: center;
     transition: 0.4s;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
     position: relative;
     overflow: hidden;
 }
@@ -403,7 +402,7 @@ body {
 }
 
 .card-servico h3 {
-    color:  #333;
+    color: #333;
     margin-bottom: 25px;
     font-size: 22px;
     line-height: 1.5;
@@ -495,16 +494,16 @@ body {
     margin-top: 20px;
 }
 
-.apps a {       
+.apps a {
     color: white;
-    background-color: #0165aa;  
+    background-color: #0165aa;
     padding: 12px 18px;
     border-radius: 8px;
     transition: 0.3s;
 }
 
 .footer-copy {
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 25px;
     color: #bdbdbd;
@@ -531,7 +530,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     color: white;
     border: none;
     font-size: 2rem;
@@ -542,8 +541,66 @@ body {
 }
 
 .arrow:hover {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.left { left: -10px; }
-.right { right: -10px; }
+.left {
+    left: -10px;
+}
+
+.right {
+    right: -10px;
+}
+
+.para-voce-destaque {
+    background-color: #f58220;
+    border-radius: 10px;
+    width: 900px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+    padding: 0;
+}
+
+.para-voce-destaque article {
+    display: flex;
+    align-items: center;
+}
+
+.vem-comum img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.para-voce-destaque h3,
+.para-voce-destaque p,
+.para-voce-destaque a {
+    margin-left: 30px;
+}
+
+.para-voce-destaque h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.para-voce-destaque p {
+    color: white;
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.para-voce-destaque a {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    color: white;
+    border: 2px solid white;
+
+    padding: 12px 25px;
+
+    text-decoration: none;
+}
